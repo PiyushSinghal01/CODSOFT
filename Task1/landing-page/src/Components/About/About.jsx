@@ -1,7 +1,8 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from "../../assets/theme_pattern.svg"
-import my_pic from "../../assets/my_pic.jpg"
+// import my_pic from "../../assets/my_pic.jpg"
+import profile_pic from "../../assets/about_profile.svg"
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         </div>
         <div className="about-sections">
             <div className="about-left">
-                <img src={my_pic} alt="" />
+                <img src={profile_pic} alt="" />
             </div>
             <div className="about-right">
                 <div className="about-para">
@@ -29,17 +30,17 @@ const About = () => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>1</h1>
+                <h1>2+</h1>
                 <p>INTERNSHIP EXPERIENCE</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>10+</h1>
+                <h1>20+</h1>
                 <p>PROJECTS COMPLETED</p>
             </div>
             <hr />
             <div className="about-achievement">
-                <h1>100+</h1>
+                <h1>300+</h1>
                 <p>QUESTIONS ON LEET CODE</p>
             </div>
         </div>
