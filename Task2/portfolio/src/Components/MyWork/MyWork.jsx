@@ -13,7 +13,7 @@ const MyWork = () => {
       </div>
       <div className="mywork-container">
         {mywork_data.map((curElem, i) => {
-          return <img key={i} src={curElem.w_img} alt="" />;
+          return <a href={curElem.link} target="_blank" rel="noreferrer"><img key={i} src={curElem.w_img} alt="" /></a>;
         })}
       </div>
       <div className="mywork-showmore">
